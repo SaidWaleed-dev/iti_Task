@@ -1,0 +1,38 @@
+    body {
+        font-family: Arial, sans-serif;
+        background: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+        }
+        .quote-box {
+        background: rgb(134, 152, 177);
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        width: 350px;
+        
+        }
+        #quote {
+        font-size: 18px;
+        margin-bottom: 10px;
+        font-style: italic;
+        }
+        #author {
+        color: gray;
+        font-style: italic;
+        }
+        button {
+        margin-top: 15px;
+        padding: 10px 20px;
+        background: #7eb1e7;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        }
+        button:hover {
+        background: #7998b9;
+        }
